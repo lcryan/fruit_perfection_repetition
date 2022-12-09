@@ -33,3 +33,4 @@ applicatie er op dat moment uit zou moeten zien:
 5. [Eindresultaat App.js](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap-5/src/App.js) en [Eindresultaat Product.js](https://github.com/hogeschoolnovi/frontend-react-fruit-perfection/blob/stap-5/src/components/Product.js)
 
 hoi
+# fruit_components_practice
