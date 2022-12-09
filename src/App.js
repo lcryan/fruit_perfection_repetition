@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import citroenen from './assets/citroenen.jpeg'
+import limoenen from './assets/limoenen.png'
+import ijsblokjes from './assets/ijsblokjes.jpg'
 
 function App() {
     return (
@@ -9,7 +12,7 @@ function App() {
                     <>
                         <article className="product">
                             <img
-                                src="https://www.veggipedia.nl/assets/Uploads/Products/4a69d3b5ad/Citroen-fruit-veggipedia.png"
+                                src={citroenen}
                                 alt='picture-of-a-lemon'/>
                             <h2>"Citroen"</h2>
                             <p>
@@ -21,7 +24,7 @@ function App() {
 
                         <article className="product">
                             <img
-                                src="https://www.veggipedia.nl/assets/Uploads/Products/4a69d3b5ad/Citroen-fruit-veggipedia.png"
+                                src={limoenen}
                                 alt='picture-of-a-lemon'/>
                             <h2>"Limoen"</h2>
                             <p>
@@ -33,7 +36,7 @@ function App() {
 
                         <article className="product">
                             <img
-                                src="https://www.veggipedia.nl/assets/Uploads/Products/4a69d3b5ad/Citroen-fruit-veggipedia.png"
+                                src={ijsblokjes}
                                 alt='picture-of-a-lemon'/>
                             <h2>"Ijsblokjes"</h2>
                             <p>
