@@ -36,28 +36,23 @@ function App() {
             <main>
                 <>
                     <Product
-                    productName="Citroen"
-                    productDescription="Limoen is familie van de citroen en de sinaasappel en behoort tot de citrusvruchten
+                        productName="Citroen"
+                        productDescription="Limoen is familie van de citroen en de sinaasappel en behoort tot de citrusvruchten
                             (Wijnruitfamilie).
                             Limoenen zijn rond en kleiner dan citroenen. De schil is dun, vrij glad en groen."
-                    image={citroenen}
-                    imgDescription='lemon'
+                        image={citroenen}
+                        imgDescription='lemon'
                     />
 
-
-
-
-                    <article className="product">
-                        <img
-                            src={limoenen}
-                            alt='picture-of-a-lemon'/>
-                        <h2>"Limoen"</h2>
-                        <p>
-                            Limoen is familie van de citroen en de sinaasappel en behoort tot de citrusvruchten
+                    <Product
+                        image={limoenen}
+                        alt='picture-of-a-lemon'
+                        productName="Limoen"
+                        productDescription=
+                            "Limoen is familie van de citroen en de sinaasappel en behoort tot de citrusvruchten
                             (Wijnruitfamilie).
-                            Limoenen zijn rond en kleiner dan citroenen. De schil is dun, vrij glad en groen.
-                        </p>
-                    </article>
+                            Limoenen zijn rond en kleiner dan citroenen. De schil is dun, vrij glad en groen."
+                    />
 
                     <article className="product">
                         <img
@@ -71,7 +66,7 @@ function App() {
                         </p>
                     </article>
 
-           </>
+                </>
             </main>
         </>
     );
