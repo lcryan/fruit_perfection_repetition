@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <main>
-      Begin hier met de tutorial!
+     <></>
     </main>
   );
 }
