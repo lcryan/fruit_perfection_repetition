@@ -54,17 +54,16 @@ function App() {
                             Limoenen zijn rond en kleiner dan citroenen. De schil is dun, vrij glad en groen."
                     />
 
-                    <article className="product">
-                        <img
-                            src={ijsblokjes}
-                            alt='picture-of-a-lemon'/>
-                        <h2>"Ijsblokjes"</h2>
-                        <p>
-                            Een ijsblokje of ijsklontje is bevroren water in de vorm van een klein blokje.
+                    <Product
+                        image={ijsblokjes}
+                        alt='picture-of-a-lemon'
+                        productName = "Ijsblokjes"
+                        productDescription=
+                            "Een ijsblokje of ijsklontje is bevroren water in de vorm van een klein blokje.
                             Het wordt gemaakt in een diepvriezer door water in een plastic vorm te laten bevriezen.
-                            Als het goed is ziet jouw webpagina er nu zo uit:
-                        </p>
-                    </article>
+                            Als het goed is ziet jouw webpagina er nu zo uit."
+
+                    />
 
                 </>
             </main>
